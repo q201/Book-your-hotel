@@ -1,58 +1,45 @@
-# Venue Booking site
+# Book Your Hotel
 
-## Local Setup
+Welcome to the **Book Your Hotel** application! This app allows users to browse hotels, book rooms, and manage their bookings. It's designed to simplify the process of finding and reserving hotel rooms.
 
-1. clone it
+## Table of Contents
 
-```bash
-git clone https://github.com/akshay782/venue_booking_site.git
-# go to project directory
-cd venue_booking_site
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
-2. Install packages
+## Features
 
-- Backend => In root directory run following command
-- Frontend => In client-side folder run same following command
+- **User Registration and Authentication:** Users can register, log in, and manage their accounts.
+- **Hotel Listings:** View available hotels with details such as name, location, and price.
+- **Booking System:** Reserve rooms, view bookings, and manage them.
+- **Payment Integration:** Secure payment through Stripe for booking confirmations.
+- **Responsive Design:** Accessible on both desktop and mobile devices.
 
-```bash
-npm install
-```
+## Technologies Used
 
-3. Create `.env` file in the root directory and add following variables
+- **Frontend:**
+  - React
+  - Bootstrap
+  - Axios
+  - React Router
 
-```bash
-dburl = 'your mongodb cluster url'
-PORT = 'the port in which you want to run your nodejs/backend'
-jwt_secret = 'your jwt secret'
-```
+- **Backend:**
+  - Node.js
+  - Express
+  - MongoDB
+  - Stripe API
 
-4. Run it 🚴‍♂️
+- **Authentication:**
+  - JWT (JSON Web Tokens)
 
-- Backend => First run following command in root directory, it will start server on port 2000
-- Frontend => Second run same command in client side folder on another terminal, it will lauch react app
+## Installation
 
-```bash
-npm start
-```
+1. **Clone the Repository:**
 
-## To commit and push changes
-
-Before you start working \
-Always -
-
-```bash
-git pull
-```
-
-After you done making some changes
-
-```bash
-git checkout -b <branch_name>
-git add .
-git commit -m "message"
-git push
-```
-
-- **Note** \
-  Please don't commit on **main** branch
+   ```bash
+   git clone https://github.com/yourusername/book-your-hotel.git
